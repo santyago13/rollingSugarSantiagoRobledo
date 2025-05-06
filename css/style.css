@@ -7,3 +7,9 @@ body {
 main {
     flex-grow: 1;
 }
+
+.img-categoria {
+    width: 100%;
+    aspect-ratio: 1 /1;
+    object-fit: cover;
+}
