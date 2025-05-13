@@ -50,6 +50,10 @@ main {
   width: 75%;
 }
 
+.textareaa {
+  resize: none;
+}
+
 @media (width >= 992px) {
   .maizenaCenter {
     text-align: start;

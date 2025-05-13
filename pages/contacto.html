@@ -68,7 +68,54 @@
       </nav>
     </header>
     <main>
-
+      <div class="alert alert-primary container mt-3">
+        Los formularios con (*) son obligatorios
+      </div>
+      <form class="container my-4">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre y Apellido *</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Ej: Santiago Robledo"
+            required
+            minlength="3"
+            maxlength="50"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="Email" class="form-label">Email *</label>
+          <input
+            type="email"
+            class="form-control"
+            id="Email"
+            placeholder="Ej: santirobledo@gmail.com"
+            required
+            minlength="3"
+            maxlength="50"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Seleccionar Archivo</label>
+          <input class="form-control" type="file" id="formFile" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Consulta *</label
+          >
+          <textarea
+            class="form-control textareaa"
+            id="exampleFormControlTextarea1"
+            rows="4"
+            required
+            minlength="10"
+            maxlength="500"
+            placeholder="Agregue su consulta de maximo 200 caracteres"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </main>
     <footer class="bg-primary py-4 text-center text-light">
       <h5 class="fs-4">Seguinos en:</h5>
