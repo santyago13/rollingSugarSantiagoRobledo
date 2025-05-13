@@ -41,3 +41,24 @@ main {
   height: 300px;
   object-fit: cover;
 }
+
+.maizenaCenter {
+  text-align: center;
+}
+
+.maizena {
+  width: 75%;
+}
+
+@media (width >= 992px) {
+  .maizenaCenter {
+    text-align: start;
+  }
+}
+
+@media (768px <= width <= 991px) {
+  .maizena {
+    height: 440px;
+    object-fit: cover;
+  }
+}
